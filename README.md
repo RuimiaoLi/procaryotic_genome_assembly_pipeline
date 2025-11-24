@@ -47,17 +47,17 @@ This pipeline provides a robust workflow for assembling prokaryotic genomes from
 
 The pipeline requires the following software tools:
 
-| Tool | Minimum Version | Purpose |
+| Tool | Use Version | Purpose |
 |------|----------------|---------|
-| FastP | 0.20.0 | Quality control and adapter trimming |
-| SPAdes | 3.15.0 | Genome assembly (standard mode) |
-| MEGAHIT | 1.2.0 | Genome assembly (low-memory mode) |
-| QUAST | 5.0.0 | Assembly quality assessment |
-| BWA | 0.7.0 | Read alignment for polishing |
-| SAMtools | 1.10 | BAM file processing |
+| FastP | 1.0.1 | Quality control and adapter trimming |
+| SPAdes | 4.0.0 | Genome assembly (standard mode) |
+| MEGAHIT | 1.2.9 | Genome assembly (low-memory mode) |
+| QUAST | 5.3.0 | Assembly quality assessment |
+| BWA | 0.7.18 | Read alignment for polishing |
+| SAMtools | 1.19.2 | BAM file processing |
 | Pilon | 1.24 | Genome polishing |
-| Prokka | 1.14.0 | Genome annotation |
-| SeqKit | 2.0.0 | Sequence manipulation |
+| Prokka | 1.14.6 | Genome annotation |
+| SeqKit | 2.10.1 | Sequence manipulation |
 
 ### Installation Methods
 
